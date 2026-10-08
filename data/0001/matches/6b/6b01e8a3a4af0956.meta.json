@@ -1,0 +1,70 @@
+{
+  "schema": "1.0",
+  "id": "0001/6b01e8a3a4af0956",
+  "contentHash": "6b01e8a3a4af09568293fb2697f5af952b1e2a6bb20d3d1e74ac1e72c5717cb3",
+  "canonicalVersion": 1,
+  "sides": [
+    {
+      "name": "clever-dolphin-ef7c"
+    },
+    {
+      "name": "curious-seal-153b"
+    }
+  ],
+  "matchLength": 5,
+  "rules": {
+    "crawford": true,
+    "jacoby": null,
+    "beaver": null,
+    "cubeLimit": null
+  },
+  "date": "2026-09-29",
+  "time": null,
+  "event": null,
+  "round": null,
+  "result": {
+    "winner": 1,
+    "score": [
+      0,
+      12
+    ],
+    "finished": true
+  },
+  "games": [
+    {
+      "points": 12,
+      "kind": "backgammon",
+      "how": "bearOff",
+      "cube": 4
+    }
+  ],
+  "tags": [],
+  "remarks": [],
+  "illegalPlays": [],
+  "links": [],
+  "attachments": [
+    {
+      "kind": "sgf",
+      "file": "6b01e8a3a4af0956.sgf",
+      "bytes": 1257,
+      "sha256": "47ad9128f445dde09de0813b0a4717ff416e40a935a5898ebe1d6aa1126f1d32",
+      "verified": true,
+      "analysis": false,
+      "engine": null
+    }
+  ],
+  "provenance": {
+    "originalFormat": "mat",
+    "dialect": "bgdb",
+    "site": "bgdb",
+    "originalHash": "97527fbc5419112c0bd661ae302d0efb43a706d177087801d93cf4259b9e06d2",
+    "importer": {
+      "name": "bgdb",
+      "version": "0.3.0"
+    },
+    "contributor": "sambot1981",
+    "submittedAt": "2026-10-08",
+    "license": "CC0-1.0"
+  },
+  "warnings": []
+}
