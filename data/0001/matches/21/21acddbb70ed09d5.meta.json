@@ -47,6 +47,7 @@
     "originalFormat": "mat",
     "dialect": "generic",
     "site": "HedgeHog",
+    "origin": "otb",
     "originalHash": "d813de580bc542adfdc796540982b9ecabc8bf28c222f8d44a79b3c454aa6ab6",
     "importer": {
       "name": "bgdb",

@@ -1,4 +1,4 @@
-# Checks a pull request that adds matches, with the tools of pipandlove/bgdb at v11 (decision 0024).
+# Checks a pull request that adds matches, with the tools of pipandlove/bgdb at v12 (decision 0024).
 # Its result is the check "validate / validate" on the pull request; review-publish runs after it.
 name: validate
 on:
@@ -8,8 +8,8 @@ permissions:
   contents: read
 jobs:
   validate:
-    uses: pipandlove/bgdb/.github/workflows/data-validate.yml@v11
+    uses: pipandlove/bgdb/.github/workflows/data-validate.yml@v12
     with:
       tools-repository: pipandlove/bgdb
-      tools-ref: v11
+      tools-ref: v12
     secrets: inherit
