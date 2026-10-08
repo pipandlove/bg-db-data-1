@@ -12,4 +12,4 @@ A bot checks every pull request within minutes, posts one comment (what is new, 
 By submitting you confirm that you have the right to share the match under **CC0** (public domain, see [DATA-LICENSE.md](DATA-LICENSE.md)).
 
 The full guide (the formats that are read, partial matches, event and round): CONTRIBUTING.md and docs/contributing-flow.md of
-[pipandlove/bg-db](https://github.com/pipandlove/bg-db).
+[pipandlove/bgdb](https://github.com/pipandlove/bgdb).

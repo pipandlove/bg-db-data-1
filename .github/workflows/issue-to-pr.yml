@@ -1,4 +1,4 @@
-# "Submit a match" issues become pull requests. Set the secret BGDB_BOT_TOKEN so that "validate" runs on them (docs/contributing-flow.md in bg-db).
+# "Submit a match" issues become pull requests. Set the secret BGDB_BOT_TOKEN so that "validate" runs on them (docs/contributing-flow.md in bgdb).
 name: issue-to-pr
 on:
   issues:
@@ -12,8 +12,8 @@ concurrency:
   cancel-in-progress: true
 jobs:
   convert:
-    uses: pipandlove/bg-db/.github/workflows/data-issue-to-pr.yml@v9
+    uses: pipandlove/bgdb/.github/workflows/data-issue-to-pr.yml@v10
     with:
-      tools-repository: pipandlove/bg-db
-      tools-ref: v9
+      tools-repository: pipandlove/bgdb
+      tools-ref: v10
     secrets: inherit

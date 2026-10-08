@@ -1,8 +1,8 @@
-# bg-db-data-1
+# bgdb-data-1
 
 Matches of **BGDB**, an open backgammon match database. This is one of its **data repositories**: it holds match files
-(`data/`), receives new ones (`inbox/`), and publishes them at <https://pipandlove.github.io/bg-db-data-1/>. The tools and the site live in
-[pipandlove/bg-db](https://github.com/pipandlove/bg-db); the site reads every data repository.
+(`data/`), receives new ones (`inbox/`), and publishes them at <https://pipandlove.github.io/bgdb-data-1/>. The tools and the site live in
+[pipandlove/bgdb](https://github.com/pipandlove/bgdb); the site reads every data repository.
 
 - **Add a match:** use the Contribute page of the site, or put the files in `inbox/` and open a pull request: see [CONTRIBUTING.md](CONTRIBUTING.md).
 - **Licence of the data:** CC0, see [DATA-LICENSE.md](DATA-LICENSE.md).
@@ -10,9 +10,9 @@ Matches of **BGDB**, an open backgammon match database. This is one of its **dat
 
 ## For the maintainer
 
-The workflows call those of `pipandlove/bg-db` at the tag `v9`: a new release of the tools changes nothing here until the
-tag is moved in `.github/workflows/*.yml` (all five files, both places in each). With `pipandlove/bg-db` checked out next to this
-repository (`../bg-db`), the usual commands run from here:
+The workflows call those of `pipandlove/bgdb` at the tag `v9`: a new release of the tools changes nothing here until the
+tag is moved in `.github/workflows/*.yml` (all five files, both places in each). With `pipandlove/bgdb` checked out next to this
+repository (`../bgdb`), the usual commands run from here:
 
 ```sh
 npm run check                              # what the bot will say about inbox/
@@ -21,4 +21,4 @@ npm run build && npm run serve             # the whole site with this repository
 ```
 
 When this repository nears its size limit, the ingest opens an issue; the next repository is made with `npm run new-data-repo` in
-`bg-db` (its docs/growing.md).
+`bgdb` (its docs/growing.md).
