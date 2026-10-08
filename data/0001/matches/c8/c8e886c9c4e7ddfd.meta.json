@@ -1,0 +1,76 @@
+{
+  "schema": "1.0",
+  "id": "0001/c8e886c9c4e7ddfd",
+  "contentHash": "c8e886c9c4e7ddfd6ec246b39c69f48af1be2f0c206f47e83b1d52d5ce8880df",
+  "canonicalVersion": 1,
+  "sides": [
+    {
+      "name": "curious-seal-153b"
+    },
+    {
+      "name": "bold-newt-baf4"
+    }
+  ],
+  "matchLength": 7,
+  "rules": {
+    "crawford": true,
+    "jacoby": null,
+    "beaver": null,
+    "cubeLimit": null
+  },
+  "date": "2026-04-06",
+  "time": null,
+  "event": null,
+  "round": null,
+  "result": {
+    "winner": 0,
+    "score": [
+      7,
+      0
+    ],
+    "finished": true
+  },
+  "games": [
+    {
+      "points": 6,
+      "kind": "backgammon",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 1
+    }
+  ],
+  "tags": [],
+  "remarks": [],
+  "illegalPlays": [],
+  "links": [],
+  "attachments": [
+    {
+      "kind": "sgf",
+      "file": "c8e886c9c4e7ddfd.sgf",
+      "bytes": 1448,
+      "sha256": "e688bcfb511451014d7e435538179ad7c9dfa0e534a9bdbce6fc725a5fdf8e30",
+      "verified": true,
+      "analysis": false,
+      "engine": null
+    }
+  ],
+  "provenance": {
+    "originalFormat": "mat",
+    "dialect": "bgdb",
+    "site": "bgdb",
+    "originalHash": "c47a0c14ddf7c4ce26c07d35183134163a5ac2670775c7b327380da7b18de5fe",
+    "importer": {
+      "name": "bgdb",
+      "version": "0.3.0"
+    },
+    "contributor": "sambot1981",
+    "submittedAt": "2026-10-08",
+    "license": "CC0-1.0"
+  },
+  "warnings": []
+}
