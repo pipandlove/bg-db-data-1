@@ -1,0 +1,112 @@
+{
+  "schema": "1.0",
+  "id": "0001/71aeb82810a72ff8",
+  "contentHash": "71aeb82810a72ff8c23407aa35333ca08e5c911538299d893c8c89f33bb47992",
+  "canonicalVersion": 1,
+  "sides": [
+    {
+      "name": "sunny-jaguar-b8be"
+    },
+    {
+      "name": "crimson-horse-b2cf"
+    }
+  ],
+  "matchLength": 11,
+  "rules": {
+    "crawford": true,
+    "jacoby": null,
+    "beaver": null,
+    "cubeLimit": null
+  },
+  "date": "2025-12-07",
+  "time": null,
+  "event": null,
+  "round": null,
+  "result": {
+    "winner": 0,
+    "score": [
+      11,
+      4
+    ],
+    "finished": true
+  },
+  "games": [
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 4,
+      "kind": "gammon",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 1
+    }
+  ],
+  "tags": [],
+  "remarks": [],
+  "illegalPlays": [],
+  "links": [],
+  "attachments": [
+    {
+      "kind": "sgf",
+      "file": "71aeb82810a72ff8.sgf",
+      "bytes": 5573,
+      "sha256": "b32eeb7947393f6a57fc6d4308f87e92aa96adbda5267415e1e046d158ac4110",
+      "verified": true,
+      "analysis": false,
+      "engine": null
+    }
+  ],
+  "provenance": {
+    "originalFormat": "mat",
+    "dialect": "bgdb",
+    "site": "bgdb",
+    "originalHash": "9d1543c04a368077980312103a3349ea49ccca89fa3296a6955c96ebc183db59",
+    "importer": {
+      "name": "bgdb",
+      "version": "0.3.0"
+    },
+    "contributor": "sambot1981",
+    "submittedAt": "2026-10-08",
+    "license": "CC0-1.0"
+  },
+  "warnings": []
+}

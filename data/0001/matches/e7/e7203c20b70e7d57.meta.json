@@ -1,0 +1,94 @@
+{
+  "schema": "1.0",
+  "id": "0001/e7203c20b70e7d57",
+  "contentHash": "e7203c20b70e7d57d6bc474eff5aad99215431b4f6ea49448adf97b8c1e52209",
+  "canonicalVersion": 1,
+  "sides": [
+    {
+      "name": "rapid-eel-5ec1"
+    },
+    {
+      "name": "sunny-jaguar-b8be"
+    }
+  ],
+  "matchLength": 11,
+  "rules": {
+    "crawford": true,
+    "jacoby": null,
+    "beaver": null,
+    "cubeLimit": null
+  },
+  "date": "2025-12-05",
+  "time": null,
+  "event": null,
+  "round": null,
+  "result": {
+    "winner": 1,
+    "score": [
+      3,
+      13
+    ],
+    "finished": true
+  },
+  "games": [
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 8,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 8
+    },
+    {
+      "points": 4,
+      "kind": "gammon",
+      "how": "bearOff",
+      "cube": 2
+    }
+  ],
+  "tags": [],
+  "remarks": [],
+  "illegalPlays": [],
+  "links": [],
+  "attachments": [
+    {
+      "kind": "sgf",
+      "file": "e7203c20b70e7d57.sgf",
+      "bytes": 3411,
+      "sha256": "c74d250314b5c79dc3a702f31e79ce0ab409a83235c5573ed7f8310862ceb56b",
+      "verified": true,
+      "analysis": false,
+      "engine": null
+    }
+  ],
+  "provenance": {
+    "originalFormat": "mat",
+    "dialect": "bgdb",
+    "site": "bgdb",
+    "originalHash": "7f6c9b61c167c0d1e673108e36032d3c6bbe09cfcd0270dd460659f5f4ea0180",
+    "importer": {
+      "name": "bgdb",
+      "version": "0.3.0"
+    },
+    "contributor": "sambot1981",
+    "submittedAt": "2026-10-08",
+    "license": "CC0-1.0"
+  },
+  "warnings": []
+}

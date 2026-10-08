@@ -1,0 +1,136 @@
+{
+  "schema": "1.0",
+  "id": "0001/a7b8ec53af586ad5",
+  "contentHash": "a7b8ec53af586ad550baf15152223a0ce691f70560504f7933ba069a42e342b6",
+  "canonicalVersion": 1,
+  "sides": [
+    {
+      "name": "sunny-jaguar-b8be"
+    },
+    {
+      "name": "happy-tapir-6ccd"
+    }
+  ],
+  "matchLength": 11,
+  "rules": {
+    "crawford": true,
+    "jacoby": null,
+    "beaver": null,
+    "cubeLimit": null
+  },
+  "date": "2026-01-06",
+  "time": null,
+  "event": null,
+  "round": null,
+  "result": {
+    "winner": 0,
+    "score": [
+      11,
+      10
+    ],
+    "finished": true
+  },
+  "games": [
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "drop",
+      "cube": 2
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 1
+    },
+    {
+      "points": 4,
+      "kind": "gammon",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 1
+    }
+  ],
+  "tags": [],
+  "remarks": [],
+  "illegalPlays": [],
+  "links": [],
+  "attachments": [
+    {
+      "kind": "sgf",
+      "file": "a7b8ec53af586ad5.sgf",
+      "bytes": 7333,
+      "sha256": "af2171f8d6c22eac6e18a93866240908087091a1c0ea03319f51227c45eb4b8a",
+      "verified": true,
+      "analysis": false,
+      "engine": null
+    }
+  ],
+  "provenance": {
+    "originalFormat": "mat",
+    "dialect": "bgdb",
+    "site": "bgdb",
+    "originalHash": "ae55092f68ca5b129664a38d286953e0ed215e0dcf2f913630822318b86c408f",
+    "importer": {
+      "name": "bgdb",
+      "version": "0.3.0"
+    },
+    "contributor": "sambot1981",
+    "submittedAt": "2026-10-08",
+    "license": "CC0-1.0"
+  },
+  "warnings": []
+}

@@ -1,0 +1,124 @@
+{
+  "schema": "1.0",
+  "id": "0001/f0960eddbb203ca6",
+  "contentHash": "f0960eddbb203ca680310e80e9201d5e6c74d53e8ae1b6b11bd22e9047f259b5",
+  "canonicalVersion": 1,
+  "sides": [
+    {
+      "name": "quick-hippo-ff7f"
+    },
+    {
+      "name": "sunny-jaguar-b8be"
+    }
+  ],
+  "matchLength": 11,
+  "rules": {
+    "crawford": true,
+    "jacoby": null,
+    "beaver": null,
+    "cubeLimit": null
+  },
+  "date": "2026-10-03",
+  "time": null,
+  "event": null,
+  "round": null,
+  "result": {
+    "winner": 1,
+    "score": [
+      8,
+      11
+    ],
+    "finished": true
+  },
+  "games": [
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 4,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 4
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "drop",
+      "cube": 1
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 4,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 4
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 1
+    },
+    {
+      "points": 2,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 2
+    },
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 1
+    }
+  ],
+  "tags": [],
+  "remarks": [],
+  "illegalPlays": [],
+  "links": [],
+  "attachments": [
+    {
+      "kind": "sgf",
+      "file": "f0960eddbb203ca6.sgf",
+      "bytes": 6415,
+      "sha256": "7436b55e66bbc397daf34fd435a37547556b3db36f6da95a5f92da16367acb70",
+      "verified": true,
+      "analysis": false,
+      "engine": null
+    }
+  ],
+  "provenance": {
+    "originalFormat": "mat",
+    "dialect": "bgdb",
+    "site": "bgdb",
+    "originalHash": "590d922fc9c6dbaa72b2de634f1fb760a437cafb925196847a233a46c89a152f",
+    "importer": {
+      "name": "bgdb",
+      "version": "0.3.0"
+    },
+    "contributor": "sambot1981",
+    "submittedAt": "2026-10-08",
+    "license": "CC0-1.0"
+  },
+  "warnings": []
+}
