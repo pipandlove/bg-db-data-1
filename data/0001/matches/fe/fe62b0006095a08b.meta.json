@@ -1,0 +1,64 @@
+{
+  "schema": "1.0",
+  "id": "0001/fe62b0006095a08b",
+  "contentHash": "fe62b0006095a08b130ccdd72ce85e1d580a5b2e9293e864d5d415e506d73e8e",
+  "canonicalVersion": 1,
+  "sides": [
+    {
+      "name": "ss",
+      "rating": 2094.41,
+      "experience": 6511
+    },
+    {
+      "name": "XG Roller+",
+      "rating": 2262,
+      "experience": 400
+    }
+  ],
+  "matchLength": 0,
+  "rules": {
+    "crawford": true,
+    "jacoby": true,
+    "beaver": false,
+    "cubeLimit": 1024
+  },
+  "date": "2026-10-08",
+  "time": "09:41",
+  "event": null,
+  "round": null,
+  "result": {
+    "winner": 1,
+    "score": [
+      0,
+      4
+    ],
+    "finished": true
+  },
+  "games": [
+    {
+      "points": 4,
+      "kind": "gammon",
+      "how": "bearOff",
+      "cube": 2
+    }
+  ],
+  "tags": [],
+  "remarks": [],
+  "illegalPlays": [],
+  "links": [],
+  "attachments": [],
+  "provenance": {
+    "originalFormat": "mat",
+    "dialect": "xg-text",
+    "site": "eXtreme Gammon",
+    "originalHash": "993c7ba75f74dc2ca6eac900a62117618f94c0cb88426b5681ecf8dc6855c1f8",
+    "importer": {
+      "name": "bgdb",
+      "version": "0.3.0"
+    },
+    "contributor": "sambot1981",
+    "submittedAt": "2026-10-08",
+    "license": "CC0-1.0"
+  },
+  "warnings": []
+}
