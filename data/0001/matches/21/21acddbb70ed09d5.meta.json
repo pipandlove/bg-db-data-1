@@ -1,0 +1,60 @@
+{
+  "schema": "1.0",
+  "id": "0001/21acddbb70ed09d5",
+  "contentHash": "21acddbb70ed09d545244a24bc526baa5400d871ad6cbe8487e9d3b08394c32a",
+  "canonicalVersion": 1,
+  "sides": [
+    {
+      "name": "Hadar"
+    },
+    {
+      "name": "Sam"
+    }
+  ],
+  "matchLength": 1,
+  "rules": {
+    "crawford": false,
+    "jacoby": false,
+    "beaver": false,
+    "cubeLimit": 64
+  },
+  "date": "2026-09-29",
+  "time": null,
+  "event": "home",
+  "round": null,
+  "result": {
+    "winner": 0,
+    "score": [
+      1,
+      0
+    ],
+    "finished": true
+  },
+  "games": [
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 1
+    }
+  ],
+  "tags": [],
+  "remarks": [],
+  "illegalPlays": [],
+  "links": [],
+  "attachments": [],
+  "provenance": {
+    "originalFormat": "mat",
+    "dialect": "generic",
+    "site": "HedgeHog",
+    "originalHash": "d813de580bc542adfdc796540982b9ecabc8bf28c222f8d44a79b3c454aa6ab6",
+    "importer": {
+      "name": "bgdb",
+      "version": "0.3.0"
+    },
+    "contributor": "pipandlove",
+    "submittedAt": "2026-10-07",
+    "license": "CC0-1.0"
+  },
+  "warnings": []
+}

@@ -1,0 +1,21 @@
+# After a merge: file the matches of inbox/ into the open shard of data/, one run at a time (spec IN-01). "Run workflow" (Actions > ingest) runs it by hand.
+name: ingest
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ['inbox/**']
+permissions:
+  contents: write
+  issues: write
+  actions: write
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+jobs:
+  ingest:
+    uses: pipandlove/bg-db/.github/workflows/data-ingest.yml@v9
+    with:
+      tools-repository: pipandlove/bg-db
+      tools-ref: v9
+    secrets: inherit

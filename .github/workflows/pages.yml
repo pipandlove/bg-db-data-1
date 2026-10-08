@@ -1,0 +1,22 @@
+# Publishes data/ on GitHub Pages (Settings > Pages > Source: GitHub Actions). The ingest workflow starts it after each ingest when the
+# variable PUBLISH_AFTER_INGEST is "true" (new-data-repo sets it when it could turn Pages on).
+name: pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ['data/**']
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    uses: pipandlove/bg-db/.github/workflows/data-pages.yml@v9
+    with:
+      tools-repository: pipandlove/bg-db
+      tools-ref: v9
+    secrets: inherit

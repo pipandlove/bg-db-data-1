@@ -1,0 +1,20 @@
+# After "validate": the bot's comment, the labels, and the merge when the review says it is safe (decision 0015).
+name: review-publish
+on:
+  workflow_run:
+    workflows: [validate]
+    types: [completed]
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+concurrency:
+  group: review-${{ github.event.workflow_run.head_sha }}
+  cancel-in-progress: true
+jobs:
+  publish:
+    uses: pipandlove/bg-db/.github/workflows/data-review-publish.yml@v9
+    with:
+      tools-repository: pipandlove/bg-db
+      tools-ref: v9
+    secrets: inherit

@@ -1,0 +1,12 @@
+{
+  "name": "BGDB",
+  "license": "CC0-1.0",
+  "repository": "pipandlove/bg-db-data-1",
+  "siteUrl": "https://pipandlove.github.io/bg-db/",
+  "defaultBranch": "master",
+  "firstShard": 1,
+  "sealPolicy": { "maxMatches": 5000, "maxMB": 300, "maxAttachmentKB": 2048 },
+  "repoPolicy": { "warnMB": 800, "stopMB": 950 },
+  "closed": false,
+  "capabilities": ["catalog"]
+}

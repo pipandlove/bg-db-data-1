@@ -1,0 +1,14 @@
+{
+  "schema": "1.0",
+  "id": "0001",
+  "status": "open",
+  "formats": [
+    "mat+meta",
+    "bgdb-json"
+  ],
+  "counts": {
+    "matches": 2,
+    "games": 2,
+    "bytes": 6522
+  }
+}
