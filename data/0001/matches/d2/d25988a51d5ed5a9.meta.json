@@ -1,0 +1,60 @@
+{
+  "schema": "1.0",
+  "id": "0001/d25988a51d5ed5a9",
+  "contentHash": "d25988a51d5ed5a9ae1d5690c5a5032af7f94e18c45bddd7980ae96f9b581920",
+  "canonicalVersion": 1,
+  "sides": [
+    {
+      "name": "lucky-dingo-c785"
+    },
+    {
+      "name": "modest-hippo-9cdf"
+    }
+  ],
+  "matchLength": 0,
+  "rules": {
+    "crawford": false,
+    "jacoby": null,
+    "beaver": null,
+    "cubeLimit": 1
+  },
+  "date": "2026-10-09",
+  "time": null,
+  "event": null,
+  "round": null,
+  "result": {
+    "winner": 0,
+    "score": [
+      1,
+      0
+    ],
+    "finished": true
+  },
+  "games": [
+    {
+      "points": 1,
+      "kind": "single",
+      "how": "bearOff",
+      "cube": 1
+    }
+  ],
+  "tags": [],
+  "remarks": [],
+  "illegalPlays": [],
+  "links": [],
+  "attachments": [],
+  "provenance": {
+    "originalFormat": "mat",
+    "dialect": "bgdb",
+    "site": "bgdb",
+    "originalHash": "9caf9d112dbf46ed022e919dd1a80a6e474bfc16239739e55c3918d9b20f7cc0",
+    "importer": {
+      "name": "bgdb",
+      "version": "0.3.0"
+    },
+    "contributor": "sambot1981",
+    "submittedAt": "2026-10-09",
+    "license": "CC0-1.0"
+  },
+  "warnings": []
+}
